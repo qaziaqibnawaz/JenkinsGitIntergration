@@ -79,8 +79,7 @@ public class Baselib {
 
 		        ChromeOptions options = new ChromeOptions();
 		   
-		     
-
+		     System.out.println("hello");
 			driver = new ChromeDriver(options); 
 		
 
@@ -88,12 +87,12 @@ public class Baselib {
 
 		else if(browser.equalsIgnoreCase("firefox"))  
 		{
-			WebDriver driver = new FirefoxDriver();
+			
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			//options.addPreference("dom.webnotifications.enabled", false);
 			//WebDriverManager.firefoxdriver().setup();
-			//driver = new FirefoxDriver(options); 
+			driver = new FirefoxDriver(options); 
 			}
 		else {
 			Assert.fail("browser name not valid");
@@ -135,7 +134,7 @@ public class Baselib {
 	@AfterClass
 	public void tearDown() {
 
-  driver.close();
+ // driver.close();
 		
 	}
 	public void copyXml(){
