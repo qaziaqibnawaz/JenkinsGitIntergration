@@ -49,6 +49,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Baselib {
 
+	String browser=System.getProperty("browser");
+	
 	
 
 	static{
@@ -66,12 +68,12 @@ public class Baselib {
 	
 	@BeforeMethod
 	   public void name() throws IOException {
-	
-	if(GenericLib.getPropData("browsername1").equalsIgnoreCase("chrome"))
+		System.out.println("browser name"+browser);
+	if(browser.equalsIgnoreCase("chrome"))
 	{
 
 
-		//	   System.out.println("Hello Chrome");
+			//   System.out.println("Hello Chrome");
           WebDriverManager.chromedriver().setup();
 		   //    Map<String, Object> prefs = new HashMap<String, Object>();
 
@@ -84,11 +86,11 @@ public class Baselib {
 
 			}
 
-		else if(GenericLib.getPropData("browsername1").equalsIgnoreCase("firefox"))  
+		else if(browser.equalsIgnoreCase("firefox"))  
 		{
 			WebDriver driver = new FirefoxDriver();
-			//WebDriverManager.firefoxdriver().setup();
-			//FirefoxOptions options = new FirefoxOptions();
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
 			//options.addPreference("dom.webnotifications.enabled", false);
 			//WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver(options); 
