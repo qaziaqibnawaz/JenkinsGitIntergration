@@ -8,12 +8,12 @@
       <![CDATA[Application loaded ]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-27T11:54:09 IST" name="Default suite" finished-at="2022-07-27T11:54:16 IST" duration-ms="6573">
+  <suite started-at="2022-07-27T12:14:35 IST" name="Default suite" finished-at="2022-07-27T12:14:41 IST" duration-ms="6449">
     <groups>
     </groups>
-    <test started-at="2022-07-27T11:54:09 IST" name="Default test" finished-at="2022-07-27T11:54:16 IST" duration-ms="6573">
+    <test started-at="2022-07-27T12:14:35 IST" name="Default test" finished-at="2022-07-27T12:14:41 IST" duration-ms="6449">
       <class name="com.Jenkins.Integration.FirstTestCase">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:09 IST" name="setUp" finished-at="2022-07-27T11:54:09 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:35 IST" name="setUp" finished-at="2022-07-27T12:14:35 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="name()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:09 IST" name="name" finished-at="2022-07-27T11:54:16 IST" duration-ms="6472" status="PASS">
+        <test-method is-config="true" signature="name()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:35 IST" name="name" finished-at="2022-07-27T12:14:41 IST" duration-ms="6329" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched successfully ]]>
@@ -34,11 +34,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- name -->
-        <test-method signature="fisttestCase()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:16 IST" name="fisttestCase" finished-at="2022-07-27T11:54:16 IST" duration-ms="7" status="PASS">
+        <test-method signature="fisttestCase()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:41 IST" name="fisttestCase" finished-at="2022-07-27T12:14:41 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fisttestCase -->
-        <test-method is-config="true" signature="TearDown_AM(org.testng.ITestResult)[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:16 IST" name="TearDown_AM" finished-at="2022-07-27T11:54:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="TearDown_AM(org.testng.ITestResult)[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:41 IST" name="TearDown_AM" finished-at="2022-07-27T12:14:41 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown_AM -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:16 IST" name="tearDown" finished-at="2022-07-27T11:54:16 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:41 IST" name="tearDown" finished-at="2022-07-27T12:14:41 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T11:54:16 IST" name="tearDownSuite" finished-at="2022-07-27T11:54:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.Jenkins.Integration.FirstTestCase@156b88f5]" started-at="2022-07-27T12:14:41 IST" name="tearDownSuite" finished-at="2022-07-27T12:14:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
