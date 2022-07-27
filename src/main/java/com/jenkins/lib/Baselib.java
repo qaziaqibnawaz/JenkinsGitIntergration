@@ -79,7 +79,9 @@ public class Baselib {
 
 		        ChromeOptions options = new ChromeOptions();
 		   
+
 		     System.out.println("hello");
+
 			driver = new ChromeDriver(options); 
 		
 
@@ -87,7 +89,7 @@ public class Baselib {
 
 		else if(browser.equalsIgnoreCase("firefox"))  
 		{
-			
+
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			//options.addPreference("dom.webnotifications.enabled", false);
