@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Jenkins.Integration.FirstTestCase">
+      <class name="com.Jenkins.Integration.SecondTestCase">
         <methods>
           <include name="TearDown_AM"/>
           <include name="tearDown"/>
-          <include name="fisttestCase"/>
+          <include name="secondTestCase"/>
           <include name="setUp"/>
           <include name="name"/>
           <include name="tearDownSuite"/>
         </methods>
-      </class> <!-- com.Jenkins.Integration.FirstTestCase -->
+      </class> <!-- com.Jenkins.Integration.SecondTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
